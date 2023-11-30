@@ -20,13 +20,21 @@
     "url": "https://github.com/Alex11SW/goit-js-hw-11/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "axios": "^1.6.2",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6",
+    "simplelightbox": "^2.14.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "resolutions": {
+    "@parcel/core": "^2.6.0",
+    "buffer": "^6.0.3"
+  }
 }

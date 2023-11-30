@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  .search-form {
+    margin-bottom: 20px;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .img {
+    max-width: 100px; 
+    width: 100%; 
+    margin: 10px;
+  }
+  .photo-card {
+    width: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .load-more {
+    display: block;
+    margin: 20px auto; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #3498db; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+  }
+  .load-more:hover {
+    background-color: #2980b9; 
+  }
+.search-form input {
+  width: 300px; 
+  padding: 10px; 
+  font-size: 16px;
+  border: 1px solid #ddd; 
+  border-radius: 5px;
+}
+.search-form button {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  background-color: #27ae60; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+.search-form {
+  text-align: center;
+  margin-top: 50px; 
+}
