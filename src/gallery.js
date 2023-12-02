@@ -2,9 +2,9 @@ import SimpleLightbox from 'simplelightbox';
 //  import 'simplelightbox/dist/simple-lightbox.min.css';
 
 
-function renderImages(images, gallery) {
+function appendImages(images, gallery) {
     const cardsMarkup = images.map(createImageCard).join('');
-    gallery.innerHTML = '';
+    // gallery.innerHTML = '';
     gallery.insertAdjacentHTML('beforeend', cardsMarkup);
     
     const lightbox = new SimpleLightbox('.gallery a');
@@ -31,7 +31,4 @@ function renderImages(images, gallery) {
     return `<p class="info-item"><b>${label}:</b> ${value}</p>`;
   }
   
-
-
-
- export { renderImages };
+ export { appendImages };
